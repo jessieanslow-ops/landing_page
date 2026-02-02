@@ -1,22 +1,38 @@
-1️⃣ Reset and base styles
+<header class="site-header">
+  <div class="container_hero">
+    <nav class="nav">
+      <a class="logo" href="/">Header Logo</a>
+      <ul class="nav-links">
+        <li><a href="#">header link one</a></li>
+        <li><a href="#">header link two</a></li>
+        <li><a href="#">header link three</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
 
-In styles.css:
-	•	body font
-	•	remove default margins
-	•	basic colors
+<section class="cta" id="cta">
+  <div class="container_cta">
+    <div class="cta-box">
+      <div class="cta-text">
+        <h2>Call to action! It's time!</h2>
+        <p>Sign up for our product by clicking that button right over there!</p>
+      </div>
+      <a class="cta-button" href="#">Sign up</a>
+    </div>
+  </div>
+</section>
 
-2️⃣ Header + nav layout
-	•	flexbox
-	•	logo left, links right
 
-3️⃣ Hero section
-	•	flexbox row
-	•	text left, image placeholder right
 
-4️⃣ Info cards
-	•	flexbox row
-	•	even spacing
 
-5️⃣ Quote + CTA
-	•	background colors
-	•	padding and centering
+
+.cta-text h2 {
+}
+
+.cta-text p {
+}
+
+.cta-button {
+}
+

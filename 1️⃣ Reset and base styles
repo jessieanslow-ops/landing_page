@@ -1,0 +1,22 @@
+1️⃣ Reset and base styles
+
+In styles.css:
+	•	body font
+	•	remove default margins
+	•	basic colors
+
+2️⃣ Header + nav layout
+	•	flexbox
+	•	logo left, links right
+
+3️⃣ Hero section
+	•	flexbox row
+	•	text left, image placeholder right
+
+4️⃣ Info cards
+	•	flexbox row
+	•	even spacing
+
+5️⃣ Quote + CTA
+	•	background colors
+	•	padding and centering

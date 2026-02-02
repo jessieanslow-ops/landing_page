@@ -9,28 +9,86 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <ul></ul>
+    <header class="site-header">
+      <nav class="nav">
+        <a class="logo" href="/">Header Logo</a>
+        <ul class="nav-links">
+          <li><a href="#header_link_one">header link one</a></li>
+          <li><a href="#header_link_two">header link two</a></li>
+          <li><a href="#header_link_three">header link three</a></li>
+        </ul>
       </nav>
     </header>
 
     <main>
       <!-- Hero section -->
-      <section>
-        <button type="submit">Submit</button>
+      <section class="hero">
+        <div class="hero-text">
+          <h1>This website is awesome</h1>
+          <p>
+            This website has some subtext that goes here under the main title.
+            It's a smaller font and the colour is lower contrast.
+          </p>
+          <button type="button">Sign up</button>
+        </div>
+
+        <div class="hero-image">this is a placeholder for an image</div>
       </section>
 
       <!-- Some Random Information -->
-      <section></section>
+      <section class="info">
+        <h2>Some random information.</h2>
+
+        <ul class="cards">
+          <li class="card">
+            <div class="illustration"></div>
+            <p>this is some subtext under an illustration or image</p>
+          </li>
+          <li class="card">
+            <div class="illustration"></div>
+            <p>this is some subtext under an illustration or image</p>
+          </li>
+          <li class="card">
+            <div class="illustration"></div>
+            <p>this is some subtext under an illustration or image</p>
+          </li>
+          <li class="card">
+            <div class="illustration"></div>
+            <p>this is some subtext under an illustration or image</p>
+          </li>
+        </ul>
+      </section>
 
       <!-- Quote -->
-      <section></section>
+      <section class="quote">
+        <figure>
+          <blockquote>
+            <p>
+              This is an inspiring quote, or a testimonial from a customer.
+              Maybe it’s just filling up space, or maybe people will actually
+              ready it. Who knows? All I know is that it looks nice.
+            </p>
+          </blockquote>
+          <figcaption>Thor, God of Thunder</figcaption>
+        </figure>
+      </section>
 
       <!-- CTA   -->
-      <section></section>
+      <section class="cta">
+        <div class="cta-box">
+          <div class="cta-text">
+            <h2>Call to action! It's time!</h2>
+            <p>
+              Sign up for our product by clicking that button right over there!
+            </p>
+          </div>
+          <a class="cta-button" href="#">Sign up</a>
+        </div>
+      </section>
     </main>
 
-    <footer></footer>
+    <footer class="site-footer">
+      <p>Copyright © The Odin Project 2021</p>
+    </footer>
   </body>
 </html>

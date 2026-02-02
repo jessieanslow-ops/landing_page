@@ -1,5 +1,140 @@
-ul {
-  list-style-type: none;
+/* Base */
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  color: #1f2937;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header + Hero + Footer background */
+.site-header,
+.hero,
+.site-footer {
+  background-color: #1f2937;
+}
+
+/* NAV */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+}
+
+.logo {
+  color: #f9faf8;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.nav-links {
+  list-style: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  color: #e5e7eb;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+  color: #cbcdd0;
+}
+
+/* Make the nav items sit left/right */
+.nav {
+}
+
+/* HERO */
+.hero {
+}
+
+.container_hero {
+}
+
+.hero-text {
+}
+
+.hero-text h1 {
+}
+
+.hero-text p {
+}
+
+.hero button {
+}
+
+.hero-image {
+}
+
+/* INFO SECTION */
+.info {
+}
+
+.container_info {
+}
+
+.info h2 {
+}
+
+.cards {
+}
+
+.card {
+}
+
+.illustration {
+}
+
+.card p {
+}
+
+/* QUOTE SECTION */
+.quote {
+}
+
+.container_quote {
+}
+
+.quote figure {
+}
+
+.quote blockquote {
+}
+
+.quote blockquote p {
+}
+
+.quote figcaption {
+}
+
+/* CTA SECTION */
+.cta {
+}
+
+.container_cta {
+}
+
+.cta-box {
+}
+
+.cta-text h2 {
+}
+
+.cta-text p {
+}
+
+.cta-button {
+}
+
+/* FOOTER */
+.site-footer {
 }

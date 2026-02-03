@@ -117,24 +117,53 @@ body {
 
 /* INFO SECTION */
 .info {
+  padding: 60px 0 80px;
+}
+
+.info-inner {
+  gap: 48px;
 }
 
 .container_info {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 24px;
 }
 
 .info h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  margin: 0 0 40px;
 }
 
 .cards {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 48px;
 }
 
 .card {
+  width: 170px;
+  text-align: center;
 }
 
 .illustration {
+  width: 170px;
+  height: 170px;
+  border: 4px solid #3882f6;
+  border-radius: 16px;
+  margin: 0 auto 12px;
 }
 
 .card p {
+  margin: 0;
+  color: #6d747d;
+  font-size: 18px;
 }
 
 /* QUOTE SECTION */
